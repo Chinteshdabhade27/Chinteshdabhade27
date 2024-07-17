@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#FFFFFF
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-bg {
+  background-color: #FFFFFF;
+ 
+} 
+
+.text-color {
+  color:#25493F;
+  
+}
+
+.border-color {
+  /* border-color:#c43f02; */
+  border: none;
+}
+
+.custom-bg-text {
+  color:#FFFFFF;
+}
+
+.bg-color {
+  background-color: #ee753e;
+}
+
+.rounded-card {
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.077);
+}
+
+.form-card {
+  padding: .2em .2em .2em;
+  /* border-radius: 0.2em; */
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover .product-card  {
+  transform: scale(1.02);
+}
+#nav-bar{
+  background-color: rgb(255, 255, 255);
+ /* background: linear-gradient(to left,rgb(2, 2, 96),rgb(5, 5, 206),rgb(147, 147, 254)); */
+ /* background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 37%, rgba(0,212,255,1) 100%); */
+ box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.566);
+ z-index: 1;
+ position: sticky;
+}
+.Nav_i{
+  color: #a11515;
+}
+.Nav_i:hover{
+  color: #ff1e1e;
+}
+#Nav_Logo_T{
+  font-size: 26px;
+  /* color: #25493F; */
+}
+.Nav_Logo{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: linear-gradient(90deg, rgb(238, 57, 57) 0%, rgb(62, 191, 216) 100%); 
+  background-clip: text;
+  color: transparent;
+
+  /* color:  rgb(40, 34, 156); */
+}
+
+#footer {
+  background-color: black;
+  color: white;
+}
+#footer-contact{
+  list-style-type: none;
+}
+#footer i{
+  color: white;
+}
+#footer .grey{
+  color: rgba(170, 172, 173, 0.927);
+}
+#copyright{
+  background-color: rgb(86, 86, 86);
+  color: rgba(240, 255, 255, 0.925);
+  font-size: 13px;
+} 
+.Foot_i{
+  color: rgba(170, 172, 173, 0.927);
+}
